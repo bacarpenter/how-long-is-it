@@ -9,34 +9,33 @@
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  
+  <script src="app.js"></script> 
 
   <title>How long is it? </title>
 </head>
 
 <body>
-  <div class="dropdown">
-    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
-      aria-haspopup="true" aria-expanded="false">
-      Unit 1
-    </button>
-    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-      <a class="dropdown-item" href="#">Mile</a>
-      <a class="dropdown-item" href="#">Gallon</a>
-      <a class="dropdown-item" href="#">Pound</a>
+  <head style="text-align: center;">How Long Is It?</head>
+  <form> <!--Form for getting user data-->
+    <div class="row">
+      <div class="col">
+        <input type="number" class="form-control" placeholder="number of" id="NumberOf">
+      </div>
+      <div class="col">
+        <select class="form-control" id="Units">
+          <option>Kilometers</option>
+          <option>Liters</option>
+          <option>Grams</option>
+          <option>Newtons</option>
+        </select>
+      </div>
     </div>
-  </div>
+    <button onclick="getFormData()">Go!</button>
+  </form>
+
+  <h1 id="InfoHeader"></h1>
   
-  <div class="dropdown">
-    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
-      aria-haspopup="true" aria-expanded="false">
-      Unit 2
-    </button>
-    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-      <a class="dropdown-item" href="#">KM</a>
-      <a class="dropdown-item" href="#">Lieter</a>
-      <a class="dropdown-item" href="#">KG</a>
-    </div>
-  </div>
 
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
