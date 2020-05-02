@@ -35,7 +35,6 @@ function loadVisualsKM() {
         var Time = Math.round(TimeUn);
         document.getElementById("InfoHeader").innerHTML = "It would take you about " + Time + " miuntes to bike " + numberOf + " kilometers";
     }
-    return;
 }
 
 function loadVisualsL() {
