@@ -6,23 +6,27 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+  <link rel="stylesheet" href="HowStyleIsIt.css">
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   
+  
+<link href="https://fonts.googleapis.com/css2?family=Heebo:wght@500&display=swap" rel="stylesheet">
+
   <script src="app.js"></script> 
 
-  <title>How long is it? </title>
+  <title style="padding: 25px;">How long is it? </title>
 </head>
 
 <body>
   <h1 style="text-align: center;">How Long Is It?</h1>
-  <div> <!--Form for getting user data-->
-    <div class="row">
-      <div class="col">
+  <div style="width: 75%; align-content: center; display: flex; align-self: center;"> <!--Form for getting user data-->
+    
+      <div class="col" style="align-self: center;">
         <input type="number" class="form-control" placeholder="number of" id="NumberOf">
       </div>
-      <div class="col">
+      <div class="col" style="align-self: center; size: 25%;">
         <select class="form-control" id="Units">
           <option>Kilometers</option>
           <option>Liters</option>
@@ -30,10 +34,12 @@
           <option>Newtons</option>
         </select>
       </div>
-    </div>
-    <button onclick="getFormData()">Go!</button>
+    
+      <div style="align-content: center; padding: 25px;">
+        <button type="button" class="btn btn-primary" onclick="getFormData()" style="align-content: center;">Go!</button>
+        </div> 
   </div>
-
+  
   <h2 id="InfoHeader" style="text-align: center;"></h2>
   
 
