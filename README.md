@@ -1,6 +1,6 @@
-## how-long-is-it
+# how-long-is-it
 
-# A web app meant to help people visualize conversions between units
+## A web app meant to help people visualize conversions between units
 
 If you were raised on imperial units like me, you could probably tell me, roughly, how long of a 60-mile drive is. You have an idea in your head about how heavy 5 pounds is because you interact with these measurements on a daily basis. For many, this breaks down when you think about metric units! How long is a 4 km walk? Short? Supper long? My guess is that you don't know.
 
