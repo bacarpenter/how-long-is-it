@@ -7,6 +7,7 @@ If you were raised on imperial units like me, you could probably tell me, roughl
 My app fixes this! On the site, you can see metric units equated to everyday things you would encounter!
 
 Check it out: www.bcarpenter.tech
+
 Like it on Devpost: https://devpost.com/software/how-long-is-it#updates
 
 ---
