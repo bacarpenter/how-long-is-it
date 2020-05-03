@@ -25,18 +25,18 @@ function loadVisualsKM() {
     if (n == 1) {   //walking. speed from https://en.wikipedia.org/wiki/Walking
         var TimeUn = numberOf / 0.083;
         var Time = Math.round(TimeUn);
-        document.getElementById("InfoHeader").innerHTML = "It would take you about " + Time + " miuntes to walk " + numberOf + " kilometers";
+        document.getElementById("InfoHeader").innerHTML = "It would take you about " + Time + " minutes to walk " + numberOf + " kilometers";
         document.getElementById("imageHandler").src = "https://cdn.pixabay.com/photo/2016/03/09/09/39/shoes-1245920_1280.jpg"
     } else if (n == 2) {    //driving. speed from https://www.omnicalculator.com/everyday-life/speed
         var TimeUn = numberOf / 1.333333333;
         var Time = Math.round(TimeUn);
-        document.getElementById("InfoHeader").innerHTML = "It would take you about " + Time + " miuntes to drive (economicly) " + numberOf + " kilometers";
+        document.getElementById("InfoHeader").innerHTML = "It would take you about " + Time + " minutes to drive (economically) " + numberOf + " kilometers";
         document.getElementById("imageHandler").src = "https://cdn.pixabay.com/photo/2016/03/11/02/08/speed-1249610_1280.jpg"
 
     } else { //bike. speed from: https://bikecommuterhero.com/whats-the-average-cycling-speed-of-a-bike-commuter/ i think!
         var TimeUn = numberOf / 0.391666667;
         var Time = Math.round(TimeUn);
-        document.getElementById("InfoHeader").innerHTML = "It would take you about " + Time + " miuntes to bike " + numberOf + " kilometers";
+        document.getElementById("InfoHeader").innerHTML = "It would take you about " + Time + " minutes to bike " + numberOf + " kilometers";
         document.getElementById("imageHandler").src = "https://cdn.pixabay.com/photo/2013/07/13/13/46/bicycle-161524_1280.png"
     }
 }
@@ -44,24 +44,24 @@ function loadVisualsKM() {
 function loadVisualsL() {
     var n = getRandomInt(3);
     if (n == 1) {
-        //Lieters to fill a red party cup. amount from https://www.solocup.com/products/18-oz-plastic-party-cup/
+        //liter to fill a red party cup. amount from https://www.solocup.com/products/18-oz-plastic-party-cup/
         var TimeUn = numberOf / 0.532324;
         var Time = Math.round(TimeUn);
-        document.getElementById("InfoHeader").innerHTML = numberOf + " lieters would fill about " + Time + " standard party cups";
+        document.getElementById("InfoHeader").innerHTML = numberOf + " liter would fill about " + Time + " standard party cups";
         document.getElementById("imageHandler").src = "https://cdn.pixabay.com/photo/2017/03/03/11/27/beer-2113853_1280.png"
     }
     else if (n == 2) {
-        //Lieters to fill a olympic swimming pool. ammount from https://www.patagoniaalliance.org/wp-content/uploads/2014/08/How-much-water-does-an-Olympic-sized-swimming-pool-hold.pdf
+        //liter to fill a olympic swimming pool. ammount from https://www.patagoniaalliance.org/wp-content/uploads/2014/08/How-much-water-does-an-Olympic-sized-swimming-pool-hold.pdf
         var TimeUn = numberOf / 2500000;
         var Time = TimeUn;
-        document.getElementById("InfoHeader").innerHTML = numberOf + " lieters would fill about " + Time + " olympic swimming pools";
+        document.getElementById("InfoHeader").innerHTML = numberOf + " liter would fill about " + Time + " olympic swimming pools";
         document.getElementById("imageHandler").src = "https://cdn.pixabay.com/photo/2013/02/09/04/23/swimmers-79592_1280.jpg"
     }
     else {
-        //Lieters to fill a milk jug (1 gallon). ammount from google converter
+        //liter to fill a milk jug (1 gallon). ammount from google converter
         var TimeUn = numberOf / 4.54609;
         var Time = Math.round(TimeUn);
-        document.getElementById("InfoHeader").innerHTML = numberOf + " lieters would fill about " + Time + " milk jugs (1 gal)";
+        document.getElementById("InfoHeader").innerHTML = numberOf + " liter would fill about " + Time + " milk jugs (1 gal)";
         document.getElementById("imageHandler").src = "https://cdn.pixabay.com/photo/2016/11/29/07/44/bottles-1868175_1280.jpg"
     }
 }
@@ -79,7 +79,7 @@ function loadVisualsG() {
         //gallon of watter. Mass from https://study.com/academy/answer/how-much-does-one-gallon-of-water-weigh.html
         var TimeUn = numberOf / 3785;
         var Time = Math.round(TimeUn);
-        document.getElementById("InfoHeader").innerHTML = numberOf + " grams is about " + Time + " gallons of watter.";
+        document.getElementById("InfoHeader").innerHTML = numberOf + " grams is about " + Time + " gallons of water.";
         document.getElementById("imageHandler").src = "https://cdn.pixabay.com/photo/2015/05/28/01/17/gallon-787382_1280.jpg"
  
     }
@@ -87,7 +87,7 @@ function loadVisualsG() {
         //iPhone X. Mass from https://www.google.com/search?q=iphone+10+weight+in+grams&rlz=1C5CHFA_enUS883US883&oq=iPhone+10+weight&aqs=chrome.1.0l8.6890j1j7&sourceid=chrome&ie=UTF-8
         var TimeUn = numberOf / 174;
         var Time = Math.round(TimeUn);
-        document.getElementById("InfoHeader").innerHTML = numberOf + " grams is about " + Time + " iPhone Xs.";
+        document.getElementById("InfoHeader").innerHTML = numberOf + " grams is about " + Time + " iPhone X.";
         document.getElementById("imageHandler").src = "https://cdn.pixabay.com/photo/2018/01/08/02/34/technology-3068617_1280.jpg"
     }
 }
@@ -105,7 +105,7 @@ function loadVisualsN() {
         //force required to lift a bolwing ball. Math from https://www.calculatorsoup.com/calculators/physics/force.php 
         var TimeUn = numberOf / 4.14765;
         var Time = Math.round(TimeUn);
-        document.getElementById("InfoHeader").innerHTML = numberOf + " newtons could lift " + Time + " ten lbs bollowing balls at an acceleration of 3ft/s"
+        document.getElementById("InfoHeader").innerHTML = numberOf + " newtons could lift " + Time + " ten lbs bowling balls at an acceleration of 3ft/s"
         document.getElementById("imageHandler").src = "https://cdn.pixabay.com/photo/2014/01/03/02/48/bowling-237905_1280.jpg"
 
     }
